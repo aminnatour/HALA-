@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HALA </title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+/* 🌌 خلفية سماء حقيقية */
+background:url("https://i.pinimg.com/1200x/04/c6/9f/04c69fed21224813ceb91b97c8a56ccc.jpg")
+no-repeat center center fixed;
+background-size:cover;
+color: #ffb6c1;
+}
+
+/* ⭐ تأثير زجاجي */
+.card{
+width:350px;
+padding:25px;
+border-radius:25px;
+background:rgba(0,0,0,0.55);
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,0.2);
+text-align:center;
+box-shadow:0 0 30px rgba(0,0,0,0.6);
+}
+
+/* صورة البروفايل */
+.card img{
+width:120px;
+height:120px;
+border-radius:50%;
+border:3px solid white;
+}
+
+/* الاسم */
+h1{
+margin-top:10px;
+font-size:24px;
+}
+
+/* وصف */
+p{
+color:#ccc;
+margin-bottom:20px;
+}
+
+/* الروابط */
+.link{
+display:block;
+margin:12px 0;
+padding:12px;
+text-decoration:none;
+background:rgba(255,255,255,0.08);
+color:white;
+border-radius:12px;
+transition:0.3s;
+}
+
+.link:hover{
+transform:scale(1.05);
+background:rgba(255,255,255,0.2);
+}
+.link{
+position:relative;
+overflow:hidden;
+}
+
+/* ⭐ نجمة خفيفة يسار */
+.link::before{
+content:"✦";
+position:absolute;
+left:10px;
+top:50%;
+transform:translateY(-50%);
+font-size:12px;
+color:white;
+opacity:0.5;
+}
+
+/* ⭐ نجمة خفيفة يمين */
+.link::after{
+content:"✦";
+position:absolute;
+right:10px;
+top:50%;
+transform:translateY(-50%);
+font-size:12px;
+color:white;
+opacity:0.5;
+}
+.title{
+font-size:34px;
+font-weight:bold;
+color:#a52a67;
+letter-spacing:2px;
+
+text-shadow:0 0 8px rgba(185, 25, 105, 0.5);
+
+/* 🎯 توسيط */
+display:flex;
+justify-content:center;
+width:100%;
+text-align:center;
+}
+
+/* 💫 تأثير بسيط عند المرور */
+.title:hover{
+transform:scale(1.05);
+text-shadow:0 0 12px rgba(77, 76, 76, 0.8);
+}
+.hi{
+ position:relative;
+top:30px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+<p class="hi"> ꧁   𓆩༺✧༻𓆪  ꧂</p>
+<img src="https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/6864420e147525f81c6440e1e195371a~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ad6c94b3&x-expires=1779904800&x-signature=NL%2B3DujpOcldPVwLcDBDMRxfEi4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2" alt="profile">
+<h1 class="title">☾HALA☽</h1>
+
+
+
+<a class="link" href="https://www.tiktok.com/@halahaj.1?is_from_webapp=1&sender_device=pc" target="_blank">
+  <i class="fa-brands fa-tiktok"></i> TikTok
+</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<a class="link" href="https://www.instagram.com/singer.hala.hajyhia?igsh=eWt4MGFiNDdpNmJ1" target="_blank">
+  <i class="fa-brands fa-instagram"></i> Instagram
+</a>
+</div>
+
+</body>
+</html>
